@@ -6,3 +6,4 @@ From here I can navigate along the notes on :
   - [meetings](meetings.md)
   - [developments](devs.md)
   - [projects](projects.md)
+  - [machines](machines.md)
