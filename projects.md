@@ -8,3 +8,4 @@ Le décompte en temps pour chaque projet : https://cloud.ocean-next.fr/apps/file
  - [IMMERSE](projects/immerse.md)
  - [EUROSEA](projects/eurosea.md)
  - [MELODY](projects/melody.md)
+ - [CNES-DUACS2](projects/cnes-duacs2.md)
