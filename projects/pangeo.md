@@ -13,19 +13,30 @@
   - eNATL60-BLB002-SSV-1h
   - eNATL60-BLBT02-SSU-1h
   - eNATL60-BLBT02-SSV-1h
-  - eNATL60-BLBT02S-ssh
+  - eNATL60-BLBT02X-ssh
   - eNATL60-I
   - eORCA025-I
   - eORCA1-I
   - zarr-eNATL60, avec zarr_eNATL60-BLB002-SSU-1h-y2009m07-09 y2010m01-03 dedans
   - zarr_NATL60-CJM165_SSU_1h_y2013m07-09
-  
-  
-  
+    
   
 #### Sur cal1
-
+  - eORCA025 : /mnt/meom/workdir/albert/eORCA025/zarr_mesh_mask_eORCA025
+  - eORCA1 : /mnt/meom/workdir/albert/eORCA1/zarr_IPSLCM6ALR_eORCA1.2_mesh_mask
+  - in /mnt/meom/workdir/albert/eNATL60/zarr :
+    - eNATL60-BLB002-SSU-1h
+    - eNATL60-BLBT02-SSH-1h
+    - eNATL60-BLBT02-SSU-1h
+    - eNATL60-BLBT02-SSV-1h
+    
 #### Sur occigen
+  - /store/albert7a/eNATL60/zarr :
+   - eNATL60-BLB002-SSH-1h
+   - eNATL60-BLB002X-SSH-1h
+   - eNATL60-BLB002X-SSH-1h-bis
+   - eNATL60-BLBT02-SSH-1h
+   
 
 
 ### Pour la conversion en zarr
