@@ -2,6 +2,13 @@
 
 ## Les données eNATL60/NATL60 sur le cloud
 
+### Les commandes liées au cloud
+
+  - gcloud auth login
+  - gcloud init : mon projet est pangeo-181919, la région est US-CENTRAL1
+  - gsutil -u pangeo-181919 ls -a gs://pangeo-meom
+  - gsutil -m scp -r albert7a@occigen.cines.fr:/store/albert7a/NATL60/NATL60-CJM165-S/1h/SSH/NATL60-CJM165-SSH-1h gs://pangeo-data/
+
 ### Ressources
 
 [Google Cloud Platform](https://console.cloud.google.com/storage/browser/pangeo-data/)
