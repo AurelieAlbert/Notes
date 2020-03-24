@@ -2,6 +2,14 @@
 
 ## Les données eNATL60/NATL60 sur le cloud
 
+### Pour la convertsion en zarr
+
+ - https://github.com/auraoupa/make-zarr-occigen
+
+#### Ressources
+
+ - https://github.com/pangeo-data/pangeo-datastore/issues/8
+
 ### Les commandes liées au cloud
 
   - gcloud auth login
@@ -9,7 +17,7 @@
   - gsutil -u pangeo-181919 ls -a gs://pangeo-meom
   - gsutil -m scp -r albert7a@occigen.cines.fr:/store/albert7a/NATL60/NATL60-CJM165-S/1h/SSH/NATL60-CJM165-SSH-1h gs://pangeo-data/
 
-### Ressources
+#### Ressources
 
 [Google Cloud Platform](https://console.cloud.google.com/storage/browser/pangeo-data/)
 
