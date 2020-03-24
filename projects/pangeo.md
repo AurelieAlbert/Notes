@@ -2,7 +2,16 @@
 
 ## Les données eNATL60/NATL60 sur le cloud
 
-### Pour la convertsion en zarr
+### Inventaire des zarrs au 24 mars 2020
+
+#### Sur le cloud
+
+#### Sur cal1
+
+#### Sur occigen
+
+
+### Pour la conversion en zarr
 
  - https://github.com/auraoupa/make-zarr-occigen
 
