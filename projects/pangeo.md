@@ -5,8 +5,24 @@
 ### Inventaire des zarrs au 24 mars 2020
 
 #### Sur le cloud
-  - https://console.cloud.google.com/storage/browser/pangeo-data/NATL60-CJM165-SSH-1h-1m2deg2deg/
-
+  - NATL60-CJM165-SSH-1h-1m2deg2deg/
+  - NATL60-CJM165-SSH-1h-2D
+  - NATL60-CJM165-SSU-1h-1m2deg2deg
+  - NATL60-CJM165-SSV-1h-1m2deg2deg
+  - eNATL60-BLB002-SSU-1h
+  - eNATL60-BLB002-SSV-1h
+  - eNATL60-BLBT02-SSU-1h
+  - eNATL60-BLBT02-SSV-1h
+  - eNATL60-BLBT02S-ssh
+  - eNATL60-I
+  - eORCA025-I
+  - eORCA1-I
+  - zarr-eNATL60, avec zarr_eNATL60-BLB002-SSU-1h-y2009m07-09 y2010m01-03 dedans
+  - zarr_NATL60-CJM165_SSU_1h_y2013m07-09
+  
+  
+  
+  
 #### Sur cal1
 
 #### Sur occigen
