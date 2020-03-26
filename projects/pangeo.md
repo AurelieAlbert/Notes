@@ -37,7 +37,9 @@
    - eNATL60-BLB002X-SSH-1h-bis
    - eNATL60-BLBT02-SSH-1h
    
-
+#### Check si zarr ok
+ 
+ https://github.com/auraoupa/zarr-check-all-platforms
 
 ### Pour la conversion en zarr
 
