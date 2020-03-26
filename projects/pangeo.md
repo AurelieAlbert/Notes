@@ -54,7 +54,7 @@
   - gcloud auth login
   - gcloud init : mon projet est pangeo-181919, la région est US-CENTRAL1
   - gsutil -u pangeo-181919 ls -a gs://pangeo-meom
-  - gsutil -m scp -r albert7a@occigen.cines.fr:/store/albert7a/NATL60/NATL60-CJM165-S/1h/SSH/NATL60-CJM165-SSH-1h gs://pangeo-data/
+  - gsutil -u pangeo-181919 -m cp -r /mnt/alberta/equipes/IGE/meom/workdir/albert/eNATL60/zarr/eNATL60-BLBT02-SSH-1h gs://pangeo-meom/
 
 #### Ressources
 
