@@ -1,5 +1,11 @@
 # PANGEO deployments 
 
+## Tests des performances des différents déploiements
+
+- dask only
+- dask+xarray
+- open zarr
+
 ## Les données eNATL60/NATL60 sur le cloud
 
 ### Inventaire des zarrs au 24 mars 2020
