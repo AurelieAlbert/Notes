@@ -6,6 +6,16 @@
  - projet JMB et Stephanie : A0060101279
  - me logguer from meom : ssh -CX rote001@jean-zay.idris.fr
  
+## Faire tourner le serveur jupyterhub
+
+   - ssh to cal1, ssh meom, ssh -CY rote001@jean-zay.idris.fr
+   - module load python
+   - salloc --ntasks=10 --account=yrf@cpu --hint=nomultithread --time=01:00:00 srun --pty bash
+   - idrlab or idrjup
+   - on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
+   - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128
+
+ 
 ### Ressources
  
   - http://www.idris.fr/jean-zay/cpu/jean-zay-cpu-doc_multi_projet.html
