@@ -1,7 +1,8 @@
 # Cluster HAL @ CNES
 
 
- - Wiki : https://gitlab.cnes.fr/hpc/wikiHPC/wikis/home
+ - Wiki : https://gitlab.cnes.fr/hpc/wikiHPC/wikis/home, https://gitlab.cnes.fr/hpc/wikiHPC/wikis/jupyter
+ - notebooks : https://gitlab.cnes.fr/inno/rt-nouvelles-technos-distrib/tree/master/notebook
 
  - connexion : `alberta@hal.cnes.fr`, mpd `T!gr8888T!gr8888`
 
