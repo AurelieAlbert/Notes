@@ -50,6 +50,7 @@
 ### Pour la conversion en zarr
 
  - https://github.com/auraoupa/make-zarr-occigen
+ - check taille chunks, etc .. : https://gitlab.cnes.fr/inno/rt-nouvelles-technos-distrib/blob/master/notebook/conversion_netcdf_to_zarr.ipynb
 
 #### Ressources
 
