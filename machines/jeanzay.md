@@ -6,6 +6,14 @@
  - projet JMB et Stephanie : A0060101279
  - me logguer from meom : ssh -CX rote001@jean-zay.idris.fr
  
+## Gestion des projets
+
+  - mes projets : idrproj
+    - egi :JMB et Stéphanie
+    - yrf : Melody
+    - ote : Drakkar ?
+  - changer de projet actif : idrproj -d grp1
+ 
 ## Faire tourner le serveur jupyterhub
 
    - ssh to cal1, ssh meom, ssh -CY rote001@jean-zay.idris.fr
