@@ -26,6 +26,7 @@
  
 ### Ressources
  
+  - http://www.idris.fr/eng/jean-zay/cpu/jean-zay-cpu-calculateurs-disques-eng.html
   - http://www.idris.fr/jean-zay/cpu/jean-zay-cpu-doc_multi_projet.html
   - http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyter-notebook.html
   
