@@ -19,7 +19,7 @@
    - ssh to cal1, ssh meom, ssh -CY rote001@jean-zay.idris.fr
    - module load python
    - salloc --ntasks=10 --account=yrf@cpu --hint=nomultithread --time=01:00:00 srun --pty bash
-   - idrlab or idrjup
+   - idrlab or idrjup, --notebook-dir=$WORK
    - on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
    - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128
 
