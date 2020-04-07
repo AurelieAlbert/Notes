@@ -3,6 +3,8 @@
  - [HAL](machines/hal.md)
 
  - [Jean Zay](machines/jeanzay.md)
+ 
+ - [GRICAD](machines/gricad.md)
 
 
    
