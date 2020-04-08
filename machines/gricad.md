@@ -36,10 +36,12 @@
      - jupyter notebook
      - in a new terminal, ssh -fNL 8888:dahu78:8888 dahu.ciment
      - in chrome, http://localhost:8888/?token=0707924ea352afc4a19ff086a94266101a57e56754072340
+     - to kill the tunnel on local machine : lsof | grep 8887 then kill the process
     
  ## Nix : package managment
  
    - doc : https://gricad.github.io/calcul/nix/tuto/2017/07/04/nix-tutorial.html
    - install a package : nix-env -i python3.7-dask-2.10.1
-   - list of all packages : nix-env -qaP | grep dask
+   - list of all packages available on the cluster : nix-env -qaP | grep dask
+   - list of the packages I have installed : nix-env -qs
 
