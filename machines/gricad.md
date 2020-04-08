@@ -31,11 +31,11 @@
  
    - https://gricad-doc.univ-grenoble-alpes.fr/notebook/hpcnb/
    - for me the steps are :
-    - login : ssh f-dahu.ciment
-    - oarsub -I --project data-ocean -l /core=10,walltime=2:00:00
-    - jupyter notebook
-    - in a new terminal, ssh -fNL 8888:dahu78:8888 dahu.ciment
-    - in chrome, http://localhost:8888/?token=0707924ea352afc4a19ff086a94266101a57e56754072340
+     - login : ssh f-dahu.ciment
+     - oarsub -I --project data-ocean -l /core=10,walltime=2:00:00
+     - jupyter notebook
+     - in a new terminal, ssh -fNL 8888:dahu78:8888 dahu.ciment
+     - in chrome, http://localhost:8888/?token=0707924ea352afc4a19ff086a94266101a57e56754072340
     
  ## Nix : package managment
  
