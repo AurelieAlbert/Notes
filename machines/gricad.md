@@ -40,6 +40,6 @@
  ## Nix : package managment
  
    - doc : https://gricad.github.io/calcul/nix/tuto/2017/07/04/nix-tutorial.html
-   - install a package : nix-env -i hello
-   - list of all packages : nix-env -qaP
+   - install a package : nix-env -i python3.7-dask-2.10.1
+   - list of all packages : nix-env -qaP | grep dask
 
