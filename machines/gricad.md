@@ -41,4 +41,5 @@
  
    - doc : https://gricad.github.io/calcul/nix/tuto/2017/07/04/nix-tutorial.html
    - install a package : nix-env -i hello
+   - list of all packages : nix-env -qaP
 
