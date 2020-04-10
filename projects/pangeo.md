@@ -8,6 +8,27 @@
 
 ## Les données eNATL60/NATL60 sur le cloud
 
+### Liste des répertoires déjà sur pange-meom au 10 avril 2020
+  - eNATL60-I
+  - eNATL60-BLB002-SSU-1h
+  - eNATL60-BLBT02-SSV-1h
+  - eNATL60-BLBT02-SSU-1h
+  - eNATL60-BLBT02-SSH-1h
+  - NATL60-I  
+  
+### Liste des répertoires sur pangeo-data que l'on veut sur pangeo-meom 
+
+  - [ ] NATL60-CJM165-SSH-1h-1m2deg2deg/
+  - [ ] NATL60-CJM165-SSH-1h-2D
+  - [ ] NATL60-CJM165-SSU-1h-1m2deg2deg
+  - [ ] NATL60-CJM165-SSV-1h-1m2deg2deg
+  - [x] eNATL60-BLB002-SSU-1h
+  - [x] eNATL60-BLBT02-SSU-1h
+  - [x] eNATL60-BLBT02-SSV-1h
+  - [x] eNATL60-BLBT02X-ssh
+  - [x] eNATL60-I
+
+
 ### Inventaire des zarrs au 24 mars 2020
 
 #### Sur le cloud
