@@ -8,6 +8,9 @@
 
 ## Les données eNATL60/NATL60 sur le cloud
 
+La commande qui fait bien le transfert : gsutil -u pangeo-181919 -m mv gs://pangeo-data/NATL60-CJM165-SSV-1h-1m2deg2deg gs://pangeo-meom/
+
+
 ### Liste des répertoires déjà sur pange-meom au 10 avril 2020
   - eNATL60-I
   - eNATL60-BLB002-SSU-1h
@@ -19,7 +22,7 @@
 ### Liste des répertoires sur pangeo-data que l'on veut sur pangeo-meom 
 
   - [ ] NATL60-CJM165-SSH-1h-1m2deg2deg/
-  - [ ] NATL60-CJM165-SSH-1h-2D
+  - [x] NATL60-CJM165-SSH-1h-2D
   - [ ] NATL60-CJM165-SSU-1h-1m2deg2deg
   - [ ] NATL60-CJM165-SSV-1h-1m2deg2deg
   - [x] eNATL60-BLB002-SSU-1h
