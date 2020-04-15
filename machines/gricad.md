@@ -42,12 +42,12 @@ https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
      - conda install -c conda-forge papermill
      - conda install -c conda-forge cmocean
      - python -m ipykernel install --user --name pangeo --display-name pangeo
-     
-
+     - jupyter labextension install dask-labextension
+     - jupyter serverextension enable --py --sys-prefix dask_labextension
      
  
-   - https://gricad-doc.univ-grenoble-alpes.fr/notebook/hpcnb/
-   - for me the steps are :
+   - on the first time follow : https://gricad-doc.univ-grenoble-alpes.fr/notebook/hpcnb/
+   - then, for me the steps are :
      - login : ssh f-dahu.ciment
      - oarsub -I --project data-ocean -l /core=10,walltime=2:00:00
      - conda activate pangeo
