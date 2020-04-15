@@ -29,6 +29,23 @@
    
  ## Jupyter notebooks directly on clusters nodes
  
+   - conda environment
+     - wget
+https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+     - sh Miniconda2-latest-Linux-x86_64.sh
+     - . ~/.bashrc
+     - conda info
+     - conda create --name pangeo  python=3.7
+     - conda activate pangeo
+     - conda install xarray dask scipy zarr netcdf4 ipython jupyter matplotlib pandas numba ipykernel nodejs
+     - conda install cartopy
+     - conda install -c conda-forge papermill
+     - conda install -c conda-forge cmocean
+     - python -m ipykernel install --user --name pangeo --display-name pangeo
+     
+
+     
+ 
    - https://gricad-doc.univ-grenoble-alpes.fr/notebook/hpcnb/
    - for me the steps are :
      - login : ssh f-dahu.ciment
