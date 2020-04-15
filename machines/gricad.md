@@ -50,8 +50,9 @@ https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
    - for me the steps are :
      - login : ssh f-dahu.ciment
      - oarsub -I --project data-ocean -l /core=10,walltime=2:00:00
+     - conda activate pangeo
      - jupyter notebook
-     - in a new terminal, ssh -fNL 8888:dahu78:8888 dahu.ciment
+     - in a new terminal, ssh -fNL 8887:dahuX:8888 dahu.ciment, X number of the node given with oarsub
      - in chrome, http://localhost:8888/?token=0707924ea352afc4a19ff086a94266101a57e56754072340
      - to kill the tunnel on local machine : lsof | grep 8887 then kill the process
     
