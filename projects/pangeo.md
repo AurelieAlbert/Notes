@@ -6,6 +6,23 @@
 - dask+xarray
 - open zarr
 
+## Les différents déploiements
+
+### Sur occigen
+
+  - au 20/04/2020 : problème pour notebooks directement sur la machine, localhost:8888 ne s'ouvre pas dans firefox
+  - au 20/04/2020 : problèmes pour session visualisation : , de plus pas de dask-jobqueue (on est sur un noeud de calcul) ni de dashboard (pas de tunnel depuis le noeud)
+  
+### Sur gricad
+
+  - au 20/04/2020 : les données sur bettik pas possible de tout mettre, déjà bien plein
+  - au 20/04/2020 : pas de dask jobqueue depuis le noeud sur lequel on fait tourner le notebook
+  
+### Sur jean zay
+### Sur cal1 (jupyterhub)
+### Sur le cloud
+
+
 ## Les données eNATL60/NATL60 sur le cloud
 
 La commande qui fait bien le transfert : gsutil -u pangeo-181919 -m mv gs://pangeo-data/NATL60-CJM165-SSV-1h-1m2deg2deg gs://pangeo-meom/
