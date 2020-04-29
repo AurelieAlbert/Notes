@@ -21,3 +21,7 @@
 -  Pour récupérer les repo git :
 	-  faire un montage sur cal1 : `sshfs alberta@hal.cnes.fr:/home/ad/alberta/git /mnt/meom/workdir/albert/HAL/homegit` par exemple (le pépertoire cible doit exister
 	-  sur cal1, aller dans le repo et faire le git clone ou pull ou push
+
+- Environnments conda (https://gitlab.cnes.fr/hpc/wikiGitlab/wikis/conda-artifactory)
+    - module load conda
+    - conda install --override-channels -c https://artifactory.cnes.fr/artifactory/api/conda/conda matplotlib
