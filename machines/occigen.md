@@ -19,3 +19,9 @@
        - cond
        - source my_env/bin/activate
        - jupyter notebook, ipython or python
+       
+## Jupyter notebooks on occigen
+
+  - direct launch
+     - bug : 'La connexion a échoué' dans firefox
+     - solution : se logguer sur le même noeud de login que de là où on ouvre la fenêtre jupyter
