@@ -1,47 +1,38 @@
 # Work done in the project IMMERSE
 
+## 2020-06-01 : reprise en main de Jean Zay avec données Steph
+
 
 ## 2020-05-26 : mail Stéphanie pour mise en place diag TS :
 
-1. Test du diag "Profiles TS" sur Jean Zay, appliqué à eNATL60 (sous-domaine MEDWEST)
+### Test du diag "Profiles TS" sur Jean Zay, appliqué à eNATL60 (sous-domaine MEDWEST)
   - "Diag Profiles TS"  (tel que réalisé pour CMEMS-GLO-HR et le papier NATL60).
   - Appliqué à l'extraction d'eNATL60 sur le domaine MEDWEST
-
-Les outputs (sous-domaine) sont  accessibles ici: /gpfsstore/rech/egi/commun/MEDWEST60/extracted_eNATL60/
-
-Les infos sur la grille: /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-I
-
-Dates à considérer: du 2010-02-05 au 2010-03-06 (1 mois)
-
-Questions: Est-ce que ce diag tient la route si appliqué sur 1 mois seulement? (combien de profiles?) Est-ce qu'eNATL60 se comporte correctement comparé aux profiles observés dans la région?
+  - Les outputs (sous-domaine) sont  accessibles ici: /gpfsstore/rech/egi/commun/MEDWEST60/extracted_eNATL60/
+  - Les infos sur la grille: /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-I
+  - Dates à considérer: du 2010-02-05 au 2010-03-06 (1 mois)
+  - Questions: Est-ce que ce diag tient la route si appliqué sur 1 mois seulement? (combien de profiles?) Est-ce qu'eNATL60 se comporte correctement comparé aux profiles observés dans la région?
 
 
-1. Diag appliqué à une simulation MEDWEST60 non-perturbée
+### Diag appliqué à une simulation MEDWEST60 non-perturbée
 
-Les outputs sont ici : /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-GSL03-S/1h/
+  - Les outputs sont ici : /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-GSL03-S/1h/
+  - Même dates (1 mois)
+  - Question: comment se comporte MEDWEST60 comparé à eNATL60 sur le même domaine?
 
-Même dates (1 mois)
+### Diag appliqué à 1 membre d'une simulation d'ensemble MEDWEST60 perturbée
 
-Question: comment se comporte MEDWEST60 comparé à eNATL60 sur le même domaine?
+  - Les outputs sont ici : /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-GSL14-S/1h/
+  - Même dates (1 mois)
+  - Question: comment se comporte MEDWEST60 perturbé vs non-perturbé?
 
+### Diag appliqué à chacun des 20 membres de la simulation d'ensemble ci-dessus
 
-1. Diag appliqué à 1 membre d'une simulation d'ensemble MEDWEST60 perturbée
-
-Les outputs sont ici : /gpfsstore/rech/egi/commun/MEDWEST60/MEDWEST60-GSL14-S/1h/
-
-Même dates (1 mois)
-
-Question: comment se comporte MEDWEST60 perturbé vs non-perturbé?
-
-
-
-1. Diag appliqué à chacun des 20 membres de la simulation d'ensemble ci-dessus
-
-Outputs indiqués ci-dessus (MEDWEST60-GSL14), les différents membres ont leurs noms de fichiers commençant par le numéro du membre: par exemple  001MEDWEST60-GSL14...,  002MEDWEST60-GSL14... etc.
-
-Même dates (1 mois)
-
-Questions: Comment se compare l'enveloppe du "spread spatial" pris en compte par le diag d'Aurélie avec l'enveloppe du spread d'ensemble? Le spread d'ensemble pourrait-il servir à justifier ou même, à mieux "calibrer" le rayon de la sphère spatiale du diag?
+   - Outputs indiqués ci-dessus (MEDWEST60-GSL14), les différents membres ont leurs noms de fichiers commençant par le numéro du membre: par exemple  001MEDWEST60-GSL14...,  002MEDWEST60-GSL14... etc.
+  - Même dates (1 mois)
+  - Questions: Comment se compare l'enveloppe du "spread spatial" pris en compte par le diag d'Aurélie avec l'enveloppe du spread d'ensemble? Le spread d'ensemble pourrait-il servir à justifier ou même, à mieux "calibrer" le rayon de la sphère spatiale du diag?
 
 
-## 2020-04-06 : Setting up on jean zay, petit test fine scale sur outpout medwest : 
+## 2020-04-06 : Setting up on jean zay, petit test fine scale sur outpout medwest
+
+  - notebook : https://github.com/AurelieAlbert/diags-CMEMS-on-jean-zay/blob/master/fine-scale-vort-var/2020-04-02-AA-test-on-jean-zay.ipynb
