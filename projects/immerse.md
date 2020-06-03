@@ -1,7 +1,11 @@
 # Work done in the project IMMERSE
 
-## 2020-06-01 : reprise en main de Jean Zay avec données Steph
+## 2020-06-03 : fin variance fines échelles avec données extract MEDWEST60
+  - problème du nombre d'opérations dans le calcul du curl puis du filtrage, dask n'arrive pas à gérer
 
+## 2020-06-01 : reprise en main de Jean Zay avec données Steph
+  - demande de 16 cores avec salloc --ntasks=1 --cpus-per-task=5 --account=egi@cpu --time=00:10:00 srun --pty bash
+  - quelques tests pour variance fine échelle de la vorticité de surface
 
 ## 2020-05-26 : mail Stéphanie pour mise en place diag TS :
 
