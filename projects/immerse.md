@@ -1,4 +1,4 @@
-# Work done in the project IMMERSE
+# Work done in the project IMMERSE : les diags fines échelles appliqués aux simus ensemblistes MEDWEST60
 
 ## 2020-06-03 : fin variance fines échelles avec données extract MEDWEST60
   - problème du nombre d'opérations dans le calcul du curl puis du filtrage, dask n'arrive pas à gérer
