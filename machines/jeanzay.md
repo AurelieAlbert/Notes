@@ -22,8 +22,14 @@
    - idrlab or idrjup, --notebook-dir=$WORK
    - on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
    - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128
-
- 
+   
+## Les resssources dans le jupyterhub
+   - on choisit le type de noeud en lançant le premier job sur lequel on fait tourner le jupyterhub
+   - on peut soit piocher dans le noeud choisi (un seul noeud) ou soumettre un autre job avec dask-jobqueue (plusieurs noeuds possibles)
+   - syntaxe jobqueue : SLURMCluster(cores=1, memory='170GB',job_extra=['--account=yrf@cpu',
+                                  '--ntasks=1','--cpus-per-task=1'], project='PerfTestPangeo', walltime='02:30:00') en rajoutant '--partition=prepost' dans job_extra
+   - si le premier job est sur un noeud normal, jobqueue sur noeuds normaux, idem prepost      
+                            
 ### Ressources
  
   - http://www.idris.fr/eng/jean-zay/cpu/jean-zay-cpu-calculateurs-disques-eng.html
