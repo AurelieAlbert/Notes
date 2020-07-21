@@ -22,7 +22,7 @@
    - ```salloc --ntasks=1 --cpus-per-task=5 --account=egi@cpu --time=00:10:00 srun --pty bash``` ou ```salloc --ntasks=1 --cpus-per-task=40 --partition=prepost --account=egi@cpu --time=03:10:00 srun --pty bash```
 
    - idrlab or ```idrjup --notebook-dir=$WORK```
-   [- on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
+   - [on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
    - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128]
    
 ## Les resssources dans le jupyterhub
