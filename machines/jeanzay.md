@@ -12,7 +12,8 @@
     - egi :JMB et Stéphanie
     - yrf : Melody
     - ote : Drakkar ?
-  - changer de projet actif : idrproj -d grp1
+  - changer de projet par défaut : idrproj -d grp1
+  - changer de projet actif : eval $(idrenv -d grp1)
  
 ## Faire tourner le serveur jupyterhub
 
