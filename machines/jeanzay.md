@@ -14,7 +14,11 @@
     - ote : Drakkar ?
   - changer de projet par défaut : idrproj -d grp1
   - changer de projet actif : eval $(idrenv -d grp1)
- 
+  
+## Quotas
+
+- idrquota -w -p egi : pour l'espace work dans le projet egi
+
 ## Faire tourner le serveur jupyterhub
 
    - [ssh to cal1, ssh meom] from lgge194 : ssh -CY rote001@jean-zay.idris.fr
