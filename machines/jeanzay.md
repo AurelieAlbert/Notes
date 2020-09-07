@@ -28,6 +28,7 @@
    - idrlab or ```idrjup --notebook-dir=$WORK```
    - [on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
    - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128]
+   - https://jean-zay-srv2.idris.fr/
    
 ## Les resssources dans le jupyterhub
    - on choisit le type de noeud en lançant le premier job sur lequel on fait tourner le jupyterhub
