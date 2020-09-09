@@ -1,6 +1,6 @@
 # Redirect the output (stdout) of a command in a file :
 https://stackoverflow.com/questions/14571090/ipython-redirecting-output-of-a-python-script-to-a-file-like-bash/14573397
-```class redirect_output(object):
+``` class redirect_output(object):
     """context manager for reditrecting stdout/err to files"""
 
 
