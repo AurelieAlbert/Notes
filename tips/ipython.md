@@ -1,8 +1,7 @@
 # Redirect the output (stdout) of a command in a file :
 https://stackoverflow.com/questions/14571090/ipython-redirecting-output-of-a-python-script-to-a-file-like-bash/14573397
-``` class redirect_output(object):
-    """context manager for reditrecting stdout/err to files"""
-
+``` 
+    class redirect_output(object):
 
     def __init__(self, stdout='', stderr=''):
         self.stdout = stdout
@@ -22,8 +21,12 @@ https://stackoverflow.com/questions/14571090/ipython-redirecting-output-of-a-pyt
 
     def __exit__(self, exc_type, exc_value, traceback):
         sys.stdout = self.sys_stdout
-        sys.stderr = self.sys_stderr```
+        sys.stderr = self.sys_stderr
+  ```
   and
-  ``` with redirect_output("my_output.txt"):
-    %run my_script.py```
+  
+  ```
+  with redirect_output("my_output.txt"):
+    %run my_script.py
+  ```
         
