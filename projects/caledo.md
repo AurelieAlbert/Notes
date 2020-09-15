@@ -1,3 +1,9 @@
+## 15/09/2020
+
+ - github repo : https://github.com/AurelieAlbert/caledo_agrif_nesting
+ - repo on cal1 : /mnt/meom/workdir/alberta/CALEDO/NESTING_TROPICO05
+ 
+
 ## 12/08/2020 
 
 Installation sur cal1 :
