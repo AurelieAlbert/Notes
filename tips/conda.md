@@ -1,4 +1,4 @@
-#Tips for conda
+# Tips for conda
 
  - list the environment available for a machine : conda info --envs
  - make an environment for a machine with no http port : via conda-pack
