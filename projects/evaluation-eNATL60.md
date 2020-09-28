@@ -1,5 +1,12 @@
 # Evaluation des runs eNATL60
 
+## 2020-09-28 repo github doi
+
+https://github.com/ocean-next/eNATL60
+
+https://zenodo.org/record/4032732#.X3HjyKY6_mE
+
+
 ## 2020-06-03 diags variance fine échelle de la vorticité de surface sur occigen
 
 Toujours pas au point car le nombre de tâches que doît effectuer dask est beaucoup trop important, curl puis filtrage puis élévation au carré puis moyenne temporelle :
