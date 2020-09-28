@@ -7,7 +7,7 @@ Estimation taille boîtes :
     - 1 champs 3D journalier = 81M, T,S,U,V,W 3D sur 1 an ~ 148GB 
     - (champs 2D négligeables)
   - COSNWA (Cross Over Subpolar North West Atlantic) 55-40°W x 30-40°N : 905x728 points de grille
-    - champs 2D (SST,SSS,SSH,MLD) journalier = 173M sur 1 an ~ 
+    - champs 2D (SST,SSS,SSH,MLD) journalier = 173M sur 1 an ~ 63GB
     - 1 champs 3D journalier = calcul en cours
 
 Suite meeting 14/09/2020 :
