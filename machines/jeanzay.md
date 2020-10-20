@@ -22,10 +22,8 @@
 ## Faire tourner le serveur jupyterhub
 
    - [ssh to cal1, ssh meom] from lgge194 : ssh -CY rote001@jean-zay.idris.fr
-   - ```module load python```
+   - ```module load python/3.7.3```
    - ```salloc --ntasks=1 --cpus-per-task=5 --account=egi@cpu --time=00:10:00 srun --pty bash``` ou ```salloc --ntasks=1 --cpus-per-task=40 --partition=prepost --account=egi@cpu --time=03:10:00 srun --pty bash```
-   - ```conda activate seawater```
-
    - idrlab or ```idrjup --notebook-dir=$WORK```
    - [on local machine, ssh -ND 3128 alberta@ige-meom-cal1.u-ga.fr
    - in the firefox browser parameters/advanced/ set up a proxy : SOCKS, server name = localhost, port 3128]
